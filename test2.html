@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My E-Commerce Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #34495e;
+      padding: 0.5rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: #ecf0f1;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #f39c12;
+    }
+
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px;
+      background-color: #ecf0f1;
+    }
+
+    .product {
+      background-color: white;
+      border: 1px solid #ddd;
+      margin: 15px;
+      padding: 15px;
+      width: 220px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .product:hover {
+      transform: scale(1.03);
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .product h3 {
+      color: #2c3e50;
+    }
+
+    .product p {
+      color: #16a085;
+      font-size: 1.1em;
+      margin: 10px 0;
+    }
+
+    .product button {
+      background-color: #e67e22;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .product button:hover {
+      background-color: #d35400;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My E-Commerce Store</h1>
+    <p>Shop the best products at the best prices!</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="product-list">
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="Product 1" />
+      <h3>Product 1</h3>
+      <p>$19.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="Product 2" />
+      <h3>Product 2</h3>
+      <p>$24.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="Product 3" />
+      <h3>Product 3</h3>
+      <p>$14.99</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My E-Commerce Store. All rights reserved.</p>
+  </footer>
+</body>
+</html>
